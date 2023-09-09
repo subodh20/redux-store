@@ -1,7 +1,11 @@
 import "./App.css";
-
+import NavBar from "./components/NabBar";
 function App() {
-  return <>Redux Tutorials</>;
+  return (
+    <>
+      <NavBar />
+    </>
+  );
 }
 
 export default App;
